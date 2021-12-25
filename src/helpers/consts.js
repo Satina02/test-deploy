@@ -1,1 +1,1 @@
-export const PRODUCTS_API = "https://delice-italian-restaurant.herokuapp.com/apiproducts";
+export const PRODUCTS_API  = "http://localhost:8000/products";
