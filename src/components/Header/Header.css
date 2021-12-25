@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 20px 20px;
+    background: #fff;
+}
+
+.navbar {
+    padding-top: 10px;
+    margin-left: 400px;
+}
+
+.navbar__item {
+    margin: 15px;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.navbar__item-active {
+    margin: 15px;
+    border-bottom: 3px solid #be9a67;
+    color: black;
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.nav-icons {
+    padding-top: 7px;
+}
+
+/* .nav-logo {
+    width: 103px;
+    height: 33px;
+} */
+
+@media screen and (max-width: 1440px){
+
+    .navbar {
+        margin-left: 530px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+
+    .header {
+        padding: 15px 15px 15px 15px;
+    }
+
+    .navbar {
+        margin-left: 120px;
+    }
+
+    .nav-icons {
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .navbar {
+        display: none;
+    
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+
+    .nav-logo {
+       width: 10px;
+       height: 10px;
+    }
+
+
+}
